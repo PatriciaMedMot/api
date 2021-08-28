@@ -1,0 +1,29 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "api para o desafio banco de curriculos",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "nodemon": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatriciaMedMot/api.git"
+  },
+  "author": "Patricia Medeiros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatriciaMedMot/api/issues"
+  },
+  "homepage": "https://github.com/PatriciaMedMot/api#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "knex": "^0.95.10",
+    "mysql": "^2.18.1",
+    "winston": "^3.3.3"
+  }
+}
